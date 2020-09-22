@@ -27,34 +27,32 @@ def trigger_motor(motor, stop_pin, pin):
     print("Motor running...")
     elaspsed_time = time.ticks_ms() - start_time
     if pin.value() == 1 or my_current_direction != rotor_direction:
-      print("Stopping Motor!")
       stop = True
-      time.sleep(0.2)
+      print("Stopping Motor!")
 
   print("stop pin")
   print(stop_pin)
-  
   pull_down_pin(motor)
 
 
 def handle_rotation(pin):
   global rotor_direction
   global interrupt_pin
-  time.sleep(0.2)
   if pin.value() == 1:
-    print("Interruption rotation received on pin: " + str(pin))
+    time.sleep(0.2)
     rotor_direction = 1
     interrupt_pin = pin
+    print("Interruption rotation received on pin: " + str(pin))
 
 
 def handle_rev_rotation(pin):
   global rotor_direction
   global interrupt_pin
-  time.sleep(0.2)
   if pin.value() == 1:
-    print("Interruption rev rotation received on pin: " + str(pin))
+    time.sleep(0.2)
     rotor_direction = 2
     interrupt_pin = pin
+    print("Interruption rev rotation received on pin: " + str(pin))
 
 # Trigger motor rotation
 pin1 = machine.Pin(WATCH_PIN_1, machine.Pin.IN)
@@ -71,7 +69,6 @@ while True:
     rotor_direction = 0
   elif rotor_direction == 2:
     print('direction 2')
-    print(interrupt_pin)
     trigger_motor(RELAY_2, END_COURSE_2, interrupt_pin)
     rotor_direction = 0
   else:

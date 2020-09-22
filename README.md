@@ -36,4 +36,3 @@ cd MyStore/ && cp -r * /pyboard/
 sudo rshell -p /dev/ttyUSB0
 repl
 ```
-
