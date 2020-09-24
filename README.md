@@ -12,7 +12,7 @@ Live GPS-tracker for KOREK
   
 ##### Video:
 
-<iframe width="1280" height="721" src="https://www.youtube.com/embed/qHuMAlqzE4M?list=TLPQMjQwOTIwMjAgqT6ALYmxbw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+https://www.youtube.com/watch?v=qHuMAlqzE4M
 
 ##### Configure your env & Copy micropython on Board:
 ```
