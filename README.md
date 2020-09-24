@@ -11,10 +11,10 @@ Live GPS-tracker for KOREK
   - Control Motor rotation & stop on sensors limit
   
 ##### Video:
+
 <figure class="video_container">
   <iframe width="1280" height="721" src="https://www.youtube.com/embed/qHuMAlqzE4M?list=TLPQMjQwOTIwMjAgqT6ALYmxbw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </figure>
-
 
 ##### Configure your env & Copy micropython on Board:
 ```
