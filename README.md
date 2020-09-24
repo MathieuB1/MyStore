@@ -2,18 +2,18 @@ KOREK-WifiLora-GPS_tracker
 
 Live GPS-tracker for KOREK
 
-#### Hardware:
+##### Hardware:
 
 - 1 Heltec V2 ESP32 Board
 
-#### Feature:
+##### Feature:
 
   - Control Motor rotation & stop on sensors limit
   
-#### Video 
+##### Video:
 <video src="https://www.youtube.com/watch?v=qHuMAlqzE4M" width="320" height="200" controls preload></video>
 
-##### Configure your env & Copy micropython on Board
+##### Configure your env & Copy micropython on Board:
 ```
 sudo apt-get install python3-pip
 sudo pip3 install esptool rshell
