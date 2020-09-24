@@ -9,6 +9,9 @@ Live GPS-tracker for KOREK
 #### Feature:
 
   - Control Motor rotation & stop on sensors limit
+  
+#### Video 
+<video src="https://www.youtube.com/watch?v=qHuMAlqzE4M" width="320" height="200" controls preload></video>
 
 ##### Configure your env & Copy micropython on Board
 ```
